@@ -1,1 +1,4 @@
 # Linux introduction
+
+## Concepts
+
