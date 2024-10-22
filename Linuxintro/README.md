@@ -22,3 +22,16 @@
 - if the original file is moved, the link becomes invalid
 - usually made to directories to create shortcuts
 - created with the -s option to ln or the symlink function
+
+**Logical Volume Manager - LVM**: is a software capability that allows users
+administrators combine individual disks and disk partitions and treat them
+as if they were a single unit.
+
+**Advantages**
+- Use any number of disks as one big disk
+- Have logical volumes stretched over several disks.
+- Snapshots allow you to backup a frozen copy of the file system, while keeping service downtime to a minimum.
+- Resize/create/delete logical and physical volumes online. File systems on them still need to be resized, but some support online resizing
+
+**Disadvantages**
+- Additional steps in setting up the system, more complicated.
