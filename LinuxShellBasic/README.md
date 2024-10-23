@@ -34,3 +34,27 @@ Environment variables are variables that are available system-wide and are inher
 **Shell variables** are variables that apply only to the current shell instance. Each shell such as zsh and bash, 
 has its own set of internal shell variables.
 
+Below are some of the most common environment variables:
+
+- USER - The current logged in user.
+- HOME - The home directory of the current user.
+- EDITOR - The default file editor to be used. This is the editor that will be used when you type edit in your terminal.
+- SHELL - The path of the current user’s shell, such as bash or zsh.
+- LOGNAME - The name of the current user.
+- PATH - A list of directories to be searched when executing commands.
+- Note: When you run a command the system will search those directories in this order and use the first found executable.
+- LANG - The current locales settings.
+- TERM - The current terminal emulation.
+- MAIL - Location of where the current user’s mail is stored.
+
+**When not to use shell scripts**
+
+- Resource-intensive tasks, especially where speed is a factor (sorting, hashing, recursion)
+- Complex applications, where structured programming is a necessity (type-checking of variables, function prototypes, etc.)
+- Mission-critical applications upon which you are betting the future of the company
+- Situations where security is important, where you need to guarantee the integrity of your system and protect against intrusion, cracking, and vandalism
+- Need native support for multi-dimensional arrays
+- Need data structures, such as linked lists or trees
+- Need to generate / manipulate graphics or GUIs
+- Need to use libraries or interface with legacy code
+- Proprietary, closed-source applications (Shell scripts put the source code right out in the open for all the world to see.)
