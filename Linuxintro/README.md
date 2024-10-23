@@ -35,3 +35,6 @@ as if they were a single unit.
 
 **Disadvantages**
 - Additional steps in setting up the system, more complicated.
+
+
+**Disk Quotas**: Disk space can be restricted by implementing disk quotas which alert a system administrator before a user consumes too much disk space or a partition becomes full
