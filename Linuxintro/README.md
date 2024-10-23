@@ -38,3 +38,5 @@ as if they were a single unit.
 
 
 **Disk Quotas**: Disk space can be restricted by implementing disk quotas which alert a system administrator before a user consumes too much disk space or a partition becomes full
+
+**Boot Loaders**:bootstrap loader, bootstrap or boot loader. This small program's only job is to load other data and programs which are then executed from RAM.
