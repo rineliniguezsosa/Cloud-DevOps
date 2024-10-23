@@ -36,6 +36,14 @@ as if they were a single unit.
 **Disadvantages**
 - Additional steps in setting up the system, more complicated.
 
+**SWAP**
+
+**swap files and partitions**: Swap space in Linux is used when the amount of physical memory (RAM) is full.
+If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space
+
+**Swappiness**: Swappiness is a Linux kernel parameter that controls the relative weight given to swapping out of
+runtime memory, as opposed to dropping pages from the system page cache, whenever a memory allocation request cannot
+be met from "free" memory
 
 **Disk Quotas**: Disk space can be restricted by implementing disk quotas which alert a system administrator before a user consumes too much disk space or a partition becomes full
 
