@@ -13,6 +13,9 @@
 **Inode**: The inode (index node) is a data structure in a Unix-style file system that describes a file-system object such as a file or a directory. Each inode stores the attributes and disk block location(s) of the object's data. File-system object attributes may include metadata (times of last change, access, modification), as well as owner and permission data.
 
 **Hard link**
+- a direct pointer to an inode
+Because hard links point to an inode, and inodes are only unique within a particular file system, hard links cannot cross file systems.
+- indistinguishable from original file (any changes made in the linked file reflect in the original file)
 - created with the ln command (and no options) or the link function
 - changes made in any reflect in all
 - a file is accessible as long as a hard link to it remains
@@ -20,6 +23,8 @@
 **Soft link**
 - a symbolic link (or symlink or soft link) is a pointer to a file name
 - if the original file is moved, the link becomes invalid
+- deleting the link does not delete the original file
+- if removed, the original file will remain
 - usually made to directories to create shortcuts
 - created with the -s option to ln or the symlink function
 
