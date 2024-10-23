@@ -20,3 +20,17 @@
   system or use values of environment variables inside of your shell scripts. For example, the environment variable
    can store information about the default text editor or browser, the path to executable files, or the system locale
     and keyboard layout settings.
+
+```sh
+KEY=value
+ANOTHER_KEY="Some other value"
+KEY_MULTI=value1:value2
+```
+
+Variables can be classified into two main categories, **environment variables**, and **shell variables.**
+
+Environment variables are variables that are available system-wide and are inherited by all spawned child processes and shells.
+
+**Shell variables** are variables that apply only to the current shell instance. Each shell such as zsh and bash, 
+has its own set of internal shell variables.
+
