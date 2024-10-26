@@ -59,6 +59,28 @@ Below are some of the most common environment variables:
 - Need to use libraries or interface with legacy code
 - Proprietary, closed-source applications (Shell scripts put the source code right out in the open for all the world to see.)
 
+**Text Editors**
+**VI/VIM**
+
+**VIM modes**
+vim has three modes:
+
+- Command mode
+- Input mode
+- Last-line mode
+
+**Command mode**: In Command Mode, one can move around on the screen, search the document for words or phrases, delete portions of text and move text around.
+
+To enter into Command Mode from any other mode, it requires pressing the [Esc] key.
+
+**VIM insert mode**: This mode enables you to insert text into the file.
+
+To get out of Insert Mode, hit the [Esc] key
+
+**VIM Last-Line Mode (Escape Mode)**: This mode enables you to perform tasks such as saving files, executing commands.
+
+Line Mode is invoked by typing a colon [:]
+
 **Filesystem files search**
 
 **find**: look for files and directories with given criterias
