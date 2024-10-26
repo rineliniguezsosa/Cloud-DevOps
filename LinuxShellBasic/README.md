@@ -58,3 +58,23 @@ Below are some of the most common environment variables:
 - Need to generate / manipulate graphics or GUIs
 - Need to use libraries or interface with legacy code
 - Proprietary, closed-source applications (Shell scripts put the source code right out in the open for all the world to see.)
+
+**Working with Archives**
+
+**ZIP/UNZIP**
+- zip -rp <file>.zip /path/to/ #compress folder into .zip
+- unzip <file>.zip #extract files in current location from .zip
+
+**TAR**
+
+- c: create a new file tar
+- v: muestra los archivos que están siendo procesados (modo verbose)
+- f: Especifica el nombre del archivo tar.
+- x: Extrae los archivos de un archivo tar.
+- t:  Lista el contenido de un archivo tar.
+- z: Comprime o descomprime el archivo tar usando gzip.
+
+**GZIP**
+
+- gzip -c file1 > foo.gz #compresses file1 into foo.gz.
+- gzip -c file2 >> foo.gz #adds file2 into foo.gz.
