@@ -59,6 +59,13 @@ Below are some of the most common environment variables:
 - Need to use libraries or interface with legacy code
 - Proprietary, closed-source applications (Shell scripts put the source code right out in the open for all the world to see.)
 
+**XARGS**
+
+**xargs** - reads arguments from the standard input, separated by blank spaces or newlines
+
+- i:  This  option  is a synonym for -Ireplace-str if replace-str is specified
+- cat names.txt | xargs -i touch {}
+
 **Working with Archives**
 
 **ZIP/UNZIP**
@@ -75,6 +82,7 @@ Below are some of the most common environment variables:
 - z: Comprime o descomprime el archivo tar usando gzip.
 
 **GZIP**
+gzip, gunzip, zcat - compress or expand files
 
 - gzip -c file1 > foo.gz #compresses file1 into foo.gz.
 - gzip -c file2 >> foo.gz #adds file2 into foo.gz.
