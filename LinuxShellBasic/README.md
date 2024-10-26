@@ -59,6 +59,20 @@ Below are some of the most common environment variables:
 - Need to use libraries or interface with legacy code
 - Proprietary, closed-source applications (Shell scripts put the source code right out in the open for all the world to see.)
 
+**Filesystem files search**
+
+**find**: look for files and directories with given criterias
+
+- **name**: buscar archivos o directorios que coincidan con un nombre específico o patrón
+
+**locate** file in filesystem
+
+-  locate passwd
+
+**grep**: print lines matching a pattern
+
+- **grep**: grep -r "fun" ~
+
 **XARGS**
 
 **xargs** - reads arguments from the standard input, separated by blank spaces or newlines
