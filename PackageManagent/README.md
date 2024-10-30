@@ -56,3 +56,22 @@ Where command is the actual command to run and OPTION can be one of the followin
 - reload
 - restart
 - force-reload
+
+**Cron**
+
+**cron**: daemon to execute scheduled commands
+
+**EDIT**
+
+To add or update job in crontab, use below command. It will open crontab file in the editor where a job can be added/updated.
+
+```sh
+crontab -e
+```
+
+By default, it will edit crontab entries of current logged in user. To edit other user crontab use command as below
+
+```sh
+crontab -u username -e
+```
+There are two types of crontab files. The system-wide crontab files and individual user crontab files.
