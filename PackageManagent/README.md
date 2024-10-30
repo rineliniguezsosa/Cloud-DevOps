@@ -42,3 +42,17 @@ apt
 - alternatives [options] --auto name
 - alternatives [options] --display name
 - alternatives [options] --config name
+
+**Systemd/init.d**
+
+**init.d**: The init.d directory contains a number of start/stop scripts for various services on your system.
+
+/etc/init.d/command OPTION
+
+Where command is the actual command to run and OPTION can be one of the following:
+
+- start
+- stop
+- reload
+- restart
+- force-reload
