@@ -31,3 +31,14 @@ Debian based:
 *.DEB
 pkg
 apt
+
+**Alternatives**
+
+**alternatives** creates, removes, maintains and displays information about the symbolic links comprising the alternatives of software, that is installed on the system, like several versions of java, python, ruby, nodejs, etc.
+
+- alternatives [options] --install link name path priority [--slave link name path]... [--initscript service]
+- alternatives [options] --remove name path
+- alternatives [options] --set name path
+- alternatives [options] --auto name
+- alternatives [options] --display name
+- alternatives [options] --config name
