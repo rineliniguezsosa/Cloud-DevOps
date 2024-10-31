@@ -63,6 +63,15 @@ useradd –d /home/mydir –s /bin/bash user1
 - d: The new user will be created using HOME_DIR as the value for the user's login directory
 - s:  The name of the user's login shell
 
+**Delete user**
+
+**userdel**: delete user (requires root access)
+
+```sh
+ userdel user #Delete user user
+ userdel –r tester #Delete user tester with its home directory and files
+```
+
 **Modify user settings**
 
 **usermod**: modify user account information (requires root access)
