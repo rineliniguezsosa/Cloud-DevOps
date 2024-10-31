@@ -62,3 +62,35 @@ useradd –d /home/mydir –s /bin/bash user1
 
 - d: The new user will be created using HOME_DIR as the value for the user's login directory
 - s:  The name of the user's login shell
+
+**Modify user settings**
+
+**usermod**: modify user account information (requires root access)
+
+```sh
+usermod -d /home/newhome user - modify the home directory for the user account to "/home/newhome"
+```
+
+**Change password**
+
+**passwd**: change of user password
+
+```sh
+sudo passwd user1
+```
+
+**How to get user info**
+
+**finger**: get user detailed info
+
+```sh
+finger user1
+```
+
+**How to add a user group**
+
+**groupadd**: create a new group
+
+```sh
+groupadd mytestgroup - Create group “mytestgroup”
+```
