@@ -57,6 +57,16 @@ Where command is the actual command to run and OPTION can be one of the followin
 - restart
 - force-reload
 
+**Systemd**
+
+**systemd** is a system and service manager for Linux operating systems. When run as a system instance, systemd
+ interprets the configuration file system.conf and the files in system.conf.d directories; when run as a user instance,
+  systemd interprets the configuration file user.conf and the files in user.conf.d directories.
+
+```sh
+cat /etc/systemd/system/tomcat.service
+```
+
 **Cron**
 
 **cron**: daemon to execute scheduled commands
