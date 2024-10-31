@@ -45,3 +45,20 @@ Groups:
 ```sh
 su root
 ```
+
+**Super user do**
+
+**sudo**: run programs with the security privileges of another user.
+
+**Add user**
+
+**useradd**: create user (requires root access)
+
+```sh
+useradd –d /home/mydir –s /bin/bash user1
+```
+
+**options**
+
+- d: The new user will be created using HOME_DIR as the value for the user's login directory
+- s:  The name of the user's login shell
