@@ -37,3 +37,11 @@ Groups:
 - groupdel
 - groupmod
 - groups
+
+**Substitute User**
+
+**su**: switch between users
+
+```sh
+su root
+```
