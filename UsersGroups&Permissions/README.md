@@ -18,3 +18,22 @@ Group name
 
 Information about all users you can find in file **/etc/passwd**
 Information about these groups you can find in file **/etc/group**
+
+**Operations**
+
+User:
+
+- su
+- sudo
+- useradd
+- userdel
+- usermod
+- passwd
+- finger
+
+Groups:
+
+- groupadd
+- groupdel
+- groupmod
+- groups
