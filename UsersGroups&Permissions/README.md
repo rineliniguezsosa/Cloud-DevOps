@@ -103,3 +103,21 @@ finger user1
 ```sh
 groupadd mytestgroup - Create group “mytestgroup”
 ```
+
+**Permission model**
+
+**Change directory’s user owner**
+
+**chown**: make user directory’s owner
+
+```sh
+chown user /home/myfolder #Make user the owner of “/home/myfolder” directory
+```
+
+**Change directory’s group owner**
+
+**chgrp**: make an owner group for file
+
+```sh
+chgrp mytestgroup test.t #Make ‘mytestgroup’ group the owner group for ‘test.t’ file
+```
